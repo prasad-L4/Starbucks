@@ -1,0 +1,142 @@
+.navbar {
+    position: sticky;
+    top: 0;left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+  
+  
+    
+  
+  }
+
+  .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  right: 10rem;
+  transform: translateY(-50)
+
+   
+  }
+  .search-icon{
+    position: absolute;
+    margin-top: .2rem;
+    font-size: 1.5rem;
+    top: 50%;
+    right: 15rem;
+    transform: translateY(-50%);
+    color:#9ca3af;
+    cursor: pointer;
+  }
+  .search-input{
+    padding-right: 0px; 
+    height: 2rem;
+    border-radius: 17rem;
+    width: 13rem;
+    display: flex;
+    display: inline-block;
+    padding-left: 4rem;
+    border-color: rgb(209, 204, 204);
+  border-top: white;
+    border-left:rgb(209, 204, 204) ;
+   
+
+    
+    
+  }
+  .logo {
+    position: absolute;
+    left: 25px;
+    height: 2.5rem;
+    margin-left:2rem ;
+    margin-top: 1rem;
+ 
+    
+
+  }
+
+  .totallist {
+    margin-left: 19rem;
+    margin-top: 1.5rem;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    
+    list-style-type: none;
+    display: flex;
+    left: 42%;
+    transform: translateX(-50%);
+    top: 1rem;
+  }
+  li{
+    margin-left: 2rem;
+  }
+  .list {
+    padding-left: 1rem;
+    font-size: 14px;
+ 
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #36454f;
+  }
+ 
+
+  .list:hover {
+    color: black;
+  }
+  
+  .list1:hover {
+    color: black;
+  }
+ 
+  
+  @media (max-width: 982px) {
+    .search{
+        top: 8rem;
+        display: flex;
+        justify-content: center;
+        
+       
+      
+      
+      }
+      .logo{
+
+  
+      left: 50%;
+    transform: translateX(-50%);
+       
+      
+
+      }
+      .totallist {
+        margin-left: 25rem;
+        margin-top: 5rem;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 45%;
+        transform: translateX(-50%);
+        top: 1rem;
+      }
+      .navbar {
+       
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+
+      
+      
+        
+      
+      }
+  }
