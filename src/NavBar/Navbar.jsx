@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import Starlogo from "../Logo/Starlogo.png";
 import {CiSearch} from 'react-icons/ci'
+import{CgProfile}from 'react-icons/cg'
 
 const Navbar = () => {
   const [state, setState] = useState(false);
@@ -28,9 +29,17 @@ const Navbar = () => {
         <div className="search" >
         <input type="text" className="search-input" placeholder="Looking for something specific?" value="" />
         <span className="search-icon"><CiSearch/></span>
+   
         </div>
+        <div className="profile-pic">
+        <span className="profile"><CgProfile/></span>
+        <hr />
+        </div>
+     
+      
    
       </div>
+  
     </>
   );
 };
