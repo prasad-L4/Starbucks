@@ -40,19 +40,22 @@
 .container{
     flex-wrap: wrap;
     width: 100%;
+    display: flex;
+    justify-content: center;
    
 
 }
 .title{
     margin-top: 2rem;
     color: #1e3932;
-    margin-left: 7rem;
+    margin-left: 4rem;
 }
 .round{
     display: flex;
     justify-content: center;
     align-content: space-between;
     flex-wrap: wrap;
+    margin-right: 5rem;
     
   
  
@@ -90,4 +93,10 @@ margin-top: 1rem;
         margin-top: 10rem;
     }
     
+}
+@media (max-width: 400px){
+   .container{
+   
+   }
+
 }

@@ -76,5 +76,39 @@ margin-left: 2rem;
   
     
   }
+  .container1{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+
+}
+@media (max-width: 400px){
+  .slider{
+    background-color: rgb(223, 192, 155);
+    margin-top: 3rem;
+    width: 30rem;
+  
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container1{
+    display: flex;
+    justify-content: center;
+    margin-right: 4rem;
+  }
+
+  .png-image{
+    height: 13rem;
+    margin-left: 3rem;
+  
+  }
+  .text2{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+  }
+  
 
 }

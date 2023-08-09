@@ -98,6 +98,8 @@
   .list {
     padding-left: 1rem;
     font-size: 14px;
+    display: flex;
+    
  
     font-size: 1.2rem;
     font-weight: bold;
@@ -115,7 +117,7 @@
   }
  
   
-  @media (max-width: 982px) {
+  @media (max-width: 982px ){
     .search{
         top: 10rem;
         
@@ -181,5 +183,142 @@
        
         
       
+      }
+  }
+  @media (max-width: 400px) {
+    .search{
+        top: 10rem;
+               
+        display: flex;
+        justify-content: center;
+    
+       
+        
+ 
+       
+      
+      
+      }
+      .nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        
+      }
+      .search-icon{
+        position: absolute;
+        margin-top: .2rem;
+        font-size: 1.5rem;
+        top: 50%;
+        
+        left: 6rem;
+        transform: translateY(-50%);
+        color:#9ca3af;
+        cursor: pointer;
+      }
+      .list {
+        padding-left: 0rem;
+        font-size: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     
+    
+       
+        
+        
+        
+     
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        color: #36454f;
+      }
+      .logo{
+
+  
+      left: 30%;
+    transform: translateX(-50%);
+       
+      
+
+      }
+      .totallist {
+        
+       
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        display: flex;
+        margin-right: 25rem;
+          
+        flex-wrap: wrap;
+        width: 100%;
+        min-width: 100px;
+        overflow-x: auto;
+        
+        
+       
+      
+      
+        
+     
+        
+      }
+      .navbar {
+       
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 3rem;
+        flex-wrap: wrap;
+
+      
+      
+        
+      
+      }
+      .profile{
+        font-size: 2rem;
+      color: grey;
+      cursor: pointer;
+      margin-left: 40rem;
+    
+      margin-top: 5rem;
+      margin-right: -5rem;
+      
+      font-size: 2.4rem;
+      right: 17rem;
+      transform: translateY(-50%);
+
+      
+     
+    
+     
+       
+        
+      
+      }
+      .search-input{
+        padding-right: 0px; 
+        height: 2rem;
+        border-radius: 17rem;
+        width: 13rem;
+        margin-right: -6rem;
+        
+        padding-left: 5rem;
+        
+        border-color: rgb(209, 204, 204);
+      border-top: white;
+        border-left:rgb(209, 204, 204) ;
+   
+       margin-left: 4rem;
+        
+        
+       
+    
+        
+        
       }
   }

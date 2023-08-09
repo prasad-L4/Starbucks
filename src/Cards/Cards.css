@@ -189,3 +189,13 @@ margin-top: 1rem;
     transition: transform 0.5s ease
 
   }
+  @media (max-width: 400px){
+    .offer-title1{
+      font-size: 2rem;
+      font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+
+  }

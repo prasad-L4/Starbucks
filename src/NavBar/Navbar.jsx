@@ -7,7 +7,7 @@ import{CgProfile}from 'react-icons/cg'
 const Navbar = () => {
 
   return (
-    <>
+    <nav div className="nav">
       <div className= "navbar" >
         <span>
           <img className="logo" src={Starlogo} alt="" />
@@ -39,7 +39,7 @@ const Navbar = () => {
    
       </div>
   
-    </>
+    </nav>
   );
 };
 

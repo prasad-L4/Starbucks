@@ -10,6 +10,7 @@ const Slide = () => {
    
   return (
     <>
+    <div className='container1'>
     <div className="slider">
       <div className="image">
         <img className='png-image'  src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Frapp_Mocha_Banner_2_611041dedb.png" alt="" />
@@ -17,7 +18,7 @@ const Slide = () => {
       <div className="slide-texts">
         <p className="text1">Irresistible Indulagence</p>
         <h2 className="text-head">Mocha Cookie Crumble</h2>
-        <p className="text2">Rich mocha,crunchy cookies,and velvety smooothness:A perfect Frappuccino experience! </p>
+        <p className="text2">Rich mocha,crunchy cookies,and velvety <br /> smooothness:A perfect Frappuccino exper brience! </p>
         <span className='rates'>
           <p className="rate-text">Starting From</p>
           <p className='rate'>₹ 480.00</p>
@@ -30,6 +31,7 @@ const Slide = () => {
       </div>
 
     
+    </div>
     </div>
     
 
