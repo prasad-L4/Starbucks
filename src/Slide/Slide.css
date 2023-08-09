@@ -1,23 +1,80 @@
-.carousel-item img {
-   
-    aspect-ratio: 16/6;
-  }
-  .watch-title {
-    color: white;
-    font-size: 5vw;
-    font-weight: 700;
-    font-family: "Merriweather", serif;
-  }
-  .watch-caption,.headphone-caption,.jewellery-caption {
-    color: white;
-    font-size: 2vw;
-  }
-  .headphone-title,
-  .jewellery-title{
-     font-weight: 700;
-     font-size: 3vw;
-     font-family: "Merriweather", serif;
-     color: white;
+.slider{
+  background-color: rgb(223, 192, 155);
+  margin-top: 3rem;
+  width: 90%;
+  margin-left: 4rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.png-image{
+  height: 13rem;
+  margin-left: 3rem;
+
+}
+.slide-text{
+
  
+
+}
+.text1{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.text-head{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+}
+.text2{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.rate{
+margin-top: .5rem;
+margin-left: 2rem;
+
+}
+.rate-text{
+  margin-top: 4rem;
+ margin-left: 2rem;
+}
+.order-btn{
+  width: 10rem;
+  height: 3rem;
+  background-color:#1e3932;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  margin-left:45rem;
+  margin-top: -5rem;
+
+
+
+  
+}
+.order-btns{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+@media (max-width: 982px) {
+  .order-btn{
+    width: 10rem;
+    height: 3rem;
+    background-color:#1e3932;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    margin-left:2rem;
+    margin-top: 4rem;
+    
+  
+  
+  
+    
   }
- 
+
+}

@@ -1,0 +1,60 @@
+.overlay1,
+.overlay2{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1; 
+  line-height: 12px;
+  cursor: pointer;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  
+}
+.text-4{
+    margin-top: 2rem;
+}
+.text3{
+    margin-top: 3rem;
+}
+.le-head{
+    color: white;
+}
+.btn{
+    margin-top: 3rem;
+    margin-left: 28rem;
+   height: 2rem;
+   border-radius: 20px;
+   color: black;
+   padding-left: 2rem;
+   background-color:white ;
+    border-color: aliceblue;
+}
+
+.header1,
+.header2{
+    position: relative;
+  display: inline-block;
+}
+.learn-head{
+    background-color: grey;
+    margin-top: 3rem;
+}
+.le-head{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+.image1{
+    height: 30rem;
+    width: 100%;
+
+}
+@media (max-width: 982px) {
+    .btn{
+
+    }
+}

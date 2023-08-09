@@ -1,0 +1,189 @@
+.latestoffers{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 95%;
+     height: auto;
+     
+      
+     
+         
+   
+    
+     flex-direction: column;
+     
+  }
+  .latest-offer{
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+  }
+  .offer-title{
+    font-size: 2rem;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+ 
+  
+  .cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 1rem;
+   font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+   margin-left: 2.2rem;
+   margin-top: 2rem;
+  
+   
+  }
+  .subhed{
+    font-size: x-small;
+    margin-left: 2rem;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+margin-top: 1rem;
+  }
+  .price{
+    margin-left: 2rem;
+margin-top: 1rem;
+  }
+  .card{
+    margin-left: 1rem;
+    box-shadow:0 5px 15px 0 rgb(150, 149, 149);
+    border-radius: 20px;
+    background-color: rgb(232, 232, 232);
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+  }
+  .card-title{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: 200;
+  }
+  .add-btn{
+    margin-left: 12rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color:#2a6455 ;
+    border: white;
+    margin-bottom: 2rem;
+    
+  }
+  .card-text{
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+
+  .card-img-top1{
+    height: 12rem;
+    max-width: 16rem;
+    
+    border-radius: 20px;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .card-img-top1:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease
+  }
+/*samll cards*/
+.latestoffers1{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 95%;
+     
+     
+      
+     
+         
+   
+    
+     flex-direction: column;
+     
+  }
+  .latest-offer1{
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+  }
+  .offer-title1{
+    font-size: 2rem;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+ 
+  
+  .cards1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 1rem;
+   font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+   margin-left: 2.2rem;
+   margin-top: 2rem;
+   
+  
+   
+  }
+  .subhed1{
+    font-size: x-small;
+    margin-left: 2rem;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+margin-top: 1rem;
+  }
+  .price1{
+    margin-left: 2rem;
+margin-top: 1rem;
+  }
+  .card1{
+    margin-left: 1rem;
+    box-shadow:0 5px 15px 0 rgb(150, 149, 149);
+    border-radius: 20px;
+    background-color: rgb(232, 232, 232);
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+  }
+  .card-title1{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-weight: 200;
+  }
+  .add-btn1{
+    margin-left: 12rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color:#2a6455 ;
+    border: white;
+    margin-bottom: 2rem;
+    
+  }
+  .card-text1{
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+
+  .card-img-top2{
+    height: 12rem;
+    max-width: 16rem;
+    
+    border-radius: 20px;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .card-img-top2:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease
+
+  }
