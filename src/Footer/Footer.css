@@ -1,0 +1,100 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+  
+    width: 100%;
+    height: auto;
+    background-color: #1e3932;
+    color: white;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+    
+   
+}
+.footer-top{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin: 1rem;
+  flex-direction: row;
+}
+.caption-footer{
+    margin-top: -1.5rem;
+}
+.logo-footer{
+    font-family: "logo";
+    font-size: 3rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+    margin-right:1rem;
+    cursor: pointer;
+    color: white;
+
+}
+.icons:hover
+{
+ transform: scale(1.2);
+ transition: transform 0.5s ease
+     
+}
+.footer-social-media{
+    margin-left: auto;
+    font-size: 1.5rem;
+    display: flex;
+    
+
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
+}
+
+.footer-bottom-sub{
+   
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  
+ 
+
+}
+.apple-btn{
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.play-btn{
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.footer-sub-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+   
+}
+.text{
+    font-size: 0.7rem;
+    margin-top: 2rem;
+    margin-top: 3rem;
+  
+}
+
+.text-cmpny,.heritage,.text-priv,.text-fa,.text-car,.text-cus,.text-season,.text-delv,.text-cmt,.text-ethical,.text-env,.text-div,.text-coffe{
+    margin-top: 2rem;
+}
+
+
+

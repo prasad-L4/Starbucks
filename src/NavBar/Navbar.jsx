@@ -1,12 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import { useState } from "react";
 import Starlogo from "../Logo/Starlogo.png";
 import {CiSearch} from 'react-icons/ci'
 import{CgProfile}from 'react-icons/cg'
 
 const Navbar = () => {
-  const [state, setState] = useState(false);
+
   return (
     <>
       <div className= "navbar" >
