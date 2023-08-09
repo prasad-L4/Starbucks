@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
-import Header from './Header/Header'
-import Slide from './Slide/Slide'
+import Navbar from '../src/NavBar/Navbar/'
+import Header from '../src/Header/Header'
+import Slide from '../src/Slide/Slide'
 import Cards from '../src/Cards/Cards'
-import Footerimage from './Footerimage/Footerimage'
-import Footer from './Footer/Footer'
+import Footerimage from '../src/Footerimage/Footerimage'
+import Footer from '../src/Footer/Footer'
 
 function Home() {
   return (
