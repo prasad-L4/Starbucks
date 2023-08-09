@@ -1,33 +1,40 @@
-.overlay1,
-.overlay2{
+.overlay1
+{
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(163, 157, 157);
   padding: 10px;
   border-radius: 5px;
   z-index: 1; 
-  line-height: 12px;
+  line-height: 2rem;
   cursor: pointer;
   margin-top: 2rem;
   align-items: center;
   text-align: center;
   
+  
 }
 .text-4{
+    margin-top: 3rem;
+ 
+}
+.armotic,.first-took{
     margin-top: 2rem;
+
 }
 .text3{
     margin-top: 3rem;
 }
 .le-head{
-    color: white;
+    color:#1e3932 ;
 }
 .btn{
     margin-top: 3rem;
     margin-left: 28rem;
    height: 2rem;
+   width: 9rem;
    border-radius: 20px;
    color: black;
    padding-left: 2rem;
@@ -41,20 +48,59 @@
   display: inline-block;
 }
 .learn-head{
-    background-color: grey;
+    background-color: rgb(207, 207, 207);
     margin-top: 3rem;
 }
 .le-head{
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
+   
 }
 .image1{
     height: 30rem;
-    width: 100%;
+    
+  
+    margin-top: 3rem;
+    
 
 }
+
+
+
 @media (max-width: 982px) {
     .btn{
+        margin-top: 3rem;
+    margin-left: 2rem;
+   height: 2rem;
+   border-radius: 20px;
+   color: black;
+   padding-left: 2rem;
+   background-color:white ;
+    border-color: aliceblue;
+    
 
+    }
+    .image1{
+        height: 35rem;
+        width: 100%;
+      
+        margin-top: 3rem;
+    
+    }
+    .text-4{
+        margin-top: 3rem;
+        font-size: 1rem;
+      
+     
+    }
+    .armotic,.first-took{
+        margin-top: 3rem;
+    
+    }
+    .text3{
+        margin-top: 4rem;
+    }
+    .le-head{
+        color:#1e3932 ;
     }
 }

@@ -138,7 +138,7 @@ margin-top: 1rem;
     font-size: x-small;
     margin-left: 2rem;
     font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
-margin-top: 1rem;
+margin-top: rem;
   }
   .price1{
     margin-left: 2rem;
@@ -146,13 +146,14 @@ margin-top: 1rem;
   }
   .card1{
     margin-left: 1rem;
-    box-shadow:0 5px 15px 0 rgb(150, 149, 149);
+    box-shadow:0 5px 15px 0 rgb(107, 104, 104);
     border-radius: 20px;
-    background-color: rgb(232, 232, 232);
+    height: 14rem;
+    background-color: rgb(255, 255, 255);
     font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
   }
   .card-title1{
-    margin-top: 1rem;
+    margin-top: rem;
     margin-left: 2rem;
     font-weight: 200;
   }
@@ -169,18 +170,19 @@ margin-top: 1rem;
   }
   .card-text1{
     font-size: .8rem;
-    margin-top: 1rem;
+    margin-top: rem;
     margin-left: 2rem;
   }
 
 
   .card-img-top2{
-    height: 12rem;
+    height: 5rem;
     max-width: 16rem;
     
     border-radius: 20px;
     margin: 1rem;
     cursor: pointer;
+    margin-left: 2rem;
   }
   .card-img-top2:hover{
     transform: scale(1.2);
