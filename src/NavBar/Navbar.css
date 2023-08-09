@@ -322,3 +322,86 @@
         
       }
   }
+  @media (max-width:320px){
+    .search-input{
+      padding-right: 0px; 
+      height: 2rem;
+      border-radius: 17rem;
+      width: 13rem;
+      margin-right: -7rem;
+      
+      padding-left: 5rem;
+      
+      border-color: rgb(209, 204, 204);
+    border-top: white;
+      border-left:rgb(209, 204, 204) ;
+ 
+     margin-left: 4rem;
+      
+      
+     
+  
+      
+      
+    }
+    .profile{
+      font-size: 2rem;
+    color: grey;
+    cursor: pointer;
+    margin-left: 40rem;
+  
+    margin-top: 5rem;
+    margin-right: -7rem;
+    
+    font-size: 2.4rem;
+    right: 17rem;
+    transform: translateY(-50%);
+
+    
+   
+  
+   
+     
+      
+    
+    }
+    .list {
+      padding-left: 0rem;
+      font-size: 4px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   
+  
+     
+      
+      
+      
+   
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: #36454f;
+    }
+    .totallist {
+        
+       
+      font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+      display: flex;
+      margin-right: 23rem;
+        
+      flex-wrap: wrap;
+      width: 100%;
+      min-width: 100px;
+      overflow-x: auto;
+      
+      
+     
+    
+    
+      
+   
+      
+    }
+
+  }
