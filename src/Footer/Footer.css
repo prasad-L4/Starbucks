@@ -95,6 +95,34 @@ justify-content: space-between;
 .text-cmpny,.heritage,.text-priv,.text-fa,.text-car,.text-cus,.text-season,.text-delv,.text-cmt,.text-ethical,.text-env,.text-div,.text-coffe{
     margin-top: 2rem;
 }
+@media (max-width:400px){
+    .footer{
+        margin-left: 1%;
+        margin-top: 2rem;
+        width: 480px;
+        
+    }
+
+}
+@media (max-width:320px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    
+        width: 100%;
+        height: auto;
+        background-color: #1e3932;
+        color: white;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif ;
+        margin-left: .5rem;
+        margin-left: 15%;
+        
+       
+    }
+    .footer-top{
+        
+    }
+}
 
 
 

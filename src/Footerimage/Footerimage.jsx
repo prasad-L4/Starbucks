@@ -5,7 +5,7 @@ const Footerimage = () => {
   return (
     <>
     <div className="learn-head">
-        <div>
+        <div className='learn'>
             <p className='le-head'>Learn more about world of coffe!</p>
             <div className="header1">
           <img className="image1" src='https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg' alt="" />

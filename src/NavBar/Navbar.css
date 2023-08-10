@@ -57,6 +57,7 @@
     height: 2.5rem;
     margin-left:2rem ;
     margin-top: 1rem;
+    
  
     
 
@@ -67,11 +68,13 @@
     margin-top: 1.5rem;
     font-family: SoDoSans_Semibold,Helvetica,sans-serif;
     
+    
     list-style-type: none;
     display: flex;
-    left: 42%;
+    left: 100%;
     transform: translateX(-50%);
     top: 1rem;
+   
   }
   .profile{
     font-size: 2rem;
@@ -129,6 +132,20 @@
       
       
       }
+      .totallist {
+        margin-left: 19rem;
+        margin-top: 1.5rem;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        
+        
+        list-style-type: none;
+        display: flex;
+        left: 0%;
+        transform: translateX(-50%);
+        top: 1rem;
+        
+        overflow: hidden;
+      }
       .logo{
 
   
@@ -150,6 +167,23 @@
         left: 45%;
         transform: translateX(-50%);
         top: 1rem;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        display: flex;
+        margin-right: 25rem;
+          
+       
+        width: 70%;
+       
+        overflow: hidden;
+        margin-left: 50%; 
+       
+        
+        margin-top: 2rem;
+          
+        flex-wrap: wrap;
+       
+        min-width: 100px;
+        overflow: hidden ;
       }
       .navbar {
        
@@ -238,7 +272,7 @@
       .logo{
 
   
-      left: 30%;
+      left: 50%;
     transform: translateX(-50%);
        
       
@@ -251,10 +285,19 @@
         display: flex;
         margin-right: 25rem;
           
+       
+        width: 60%;
+       
+        overflow: hidden;
+        margin-left: 50%; 
+       
+        
+        margin-top: 2rem;
+          
         flex-wrap: wrap;
-        width: 100%;
+       
         min-width: 100px;
-        overflow-x: auto;
+        overflow: hidden ;
         
         
        
@@ -273,6 +316,7 @@
         justify-content: center;
         margin-left: 3rem;
         flex-wrap: wrap;
+        justify-content: center;
 
       
       
@@ -289,7 +333,7 @@
       margin-right: -5rem;
       
       font-size: 2.4rem;
-      right: 17rem;
+      right: 14rem;
       transform: translateY(-50%);
 
       
@@ -305,7 +349,7 @@
         height: 2rem;
         border-radius: 17rem;
         width: 13rem;
-        margin-right: -6rem;
+        margin-right: -8rem;
         
         padding-left: 5rem;
         
@@ -328,7 +372,7 @@
       height: 2rem;
       border-radius: 17rem;
       width: 13rem;
-      margin-right: -7rem;
+      margin-right: -10rem;
       
       padding-left: 5rem;
       
@@ -336,7 +380,7 @@
     border-top: white;
       border-left:rgb(209, 204, 204) ;
  
-     margin-left: 4rem;
+     margin-left: rem;
       
       
      
@@ -354,8 +398,9 @@
     margin-right: -7rem;
     
     font-size: 2.4rem;
-    right: 17rem;
+    right: 13rem;
     transform: translateY(-50%);
+    margin-left: 0%;
 
     
    
@@ -385,15 +430,16 @@
     }
     .totallist {
         
-       
+      margin-left: 50%; 
       font-family: SoDoSans_Semibold,Helvetica,sans-serif;
       display: flex;
       margin-right: 23rem;
+      margin-top: 2rem;
         
       flex-wrap: wrap;
-      width: 100%;
+      width: 40%;
       min-width: 100px;
-      overflow-x: auto;
+      overflow: hidden ;
       
       
      
@@ -402,6 +448,10 @@
       
    
       
+    }
+    .logo{
+      left:50%;
+      transform: translateX(-50%);
     }
 
   }

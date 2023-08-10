@@ -109,6 +109,14 @@ margin-left: 2rem;
     margin-top: 1rem;
     
   }
+  .slider{
+    margin-left: 50%;
+  }
   
 
+}
+@media (max-width: 320px){
+  .slider{
+    margin-left: 50%;
+  }
 }

@@ -10,7 +10,7 @@ function Home() {
   return (
     <div>
      
-   <Navbar/>
+    <Navbar/>
    <Header/>
    <Slide/>
    <Cards/>

@@ -95,8 +95,33 @@ margin-top: 1rem;
     
 }
 @media (max-width: 400px){
+    .title{
+        margin-top: 5rem;
+        margin-left: 15%;
+       
+    }
+    .handcrafted{
+        margin-left: 35%;
+    }
+    .round{
+        margin-right: 60%;
+    }
+
+}
+@media (max-width: 320px){
    .container{
    
    }
+   .title{
+    margin-top: 5rem;
+    margin-left: 10%;
+   
+}
+.handcrafted{
+    margin-left: 40%;
+}
+.round{
+    margin-right: 60%;
+}
 
 }
