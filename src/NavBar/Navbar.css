@@ -52,7 +52,7 @@
     
   }
   .logo {
-    position: absolute;
+    
     left: 25px;
     height: 2.5rem;
     margin-left:2rem ;
@@ -122,7 +122,7 @@
   
   @media (max-width: 982px ){
     .search{
-        top: 10rem;
+        top: 11rem;
         
         display: flex;
         justify-content: center;
@@ -148,28 +148,28 @@
       }
       .logo{
 
-  
-      left: 50%;
-    transform: translateX(-50%);
+  margin-right: 5rem;
+      
        
       
 
       }
       .totallist {
-        margin-left: 25rem;
+        margin-left: rem;
         margin-top: 5rem;
         font-family: SoDoSans_Semibold,Helvetica,sans-serif;
         
         list-style-type: none;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 45%;
+        
+       overflow: hidden;
+       
+    
         transform: translateX(-50%);
         top: 1rem;
         font-family: SoDoSans_Semibold,Helvetica,sans-serif;
         display: flex;
-        margin-right: 25rem;
+        margin-right: 17rem;
           
        
         width: 70%;
@@ -202,9 +202,9 @@
         font-size: 2rem;
       color: grey;
       cursor: pointer;
-      margin-left: 40rem;
+      
     
-      margin-top: 5rem;
+      margin-top: 6rem;
       
       font-size: 2.4rem;
       right: 17rem;
@@ -221,7 +221,7 @@
   }
   @media (max-width: 400px) {
     .search{
-        top: 10rem;
+        bottom: 8rem;
                
         display: flex;
         justify-content: center;
@@ -271,9 +271,10 @@
       }
       .logo{
 
-  
-      left: 50%;
-    transform: translateX(-50%);
+        .logo{
+          margin-left: 8rem;
+        }
+      
        
       
 
@@ -283,12 +284,13 @@
        
         font-family: SoDoSans_Semibold,Helvetica,sans-serif;
         display: flex;
-        margin-right: 25rem;
-          
+        margin-right: 2rem;
+        padding-right: 7rem;
+         
        
-        width: 60%;
-       
-        overflow: hidden;
+        flex-wrap: wrap;
+       margin-bottom: 7rem;
+        justify-content: center;
         margin-left: 50%; 
        
         
@@ -365,6 +367,7 @@
         
         
       }
+     
   }
   @media (max-width:320px){
     .search-input{
@@ -388,17 +391,31 @@
       
       
     }
+    .search{
+      margin-top: 3rem;
+      margin-right: 1rem;
+             
+      display: flex;
+      justify-content: center;
+  
+     
+      
+
+     
+    
+    
+    }
     .profile{
       font-size: 2rem;
     color: grey;
     cursor: pointer;
-    margin-left: 40rem;
+    margin-left: 2rem;
   
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-right: -7rem;
     
     font-size: 2.4rem;
-    right: 13rem;
+    right: 16rem;
     transform: translateY(-50%);
     margin-left: 0%;
 
@@ -416,6 +433,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      padding-top: 10px;
    
   
      
@@ -430,17 +448,24 @@
     }
     .totallist {
         
-      margin-left: 50%; 
       font-family: SoDoSans_Semibold,Helvetica,sans-serif;
-      display: flex;
-      margin-right: 23rem;
-      margin-top: 2rem;
+        display: flex;
+        margin-right: 1rem;
+        padding-right: 10rem;
+         
+        flex-wrap: wrap;
+       margin-bottom: 20rem;
+        justify-content: center;
+        margin-left: 60%;
+        width: 10%; 
+       
         
-      flex-wrap: wrap;
-      width: 40%;
-      min-width: 100px;
-      overflow: hidden ;
-      
+        margin-top: -.5rem;
+          
+        flex-wrap: wrap;
+       
+        min-width: 100px;
+        overflow: hidden ;
       
      
     
@@ -450,7 +475,8 @@
       
     }
     .logo{
-      left:50%;
+      left:60%;
+      margin-left: 6rem;
       transform: translateX(-50%);
     }
 

@@ -97,14 +97,14 @@ margin-top: 1rem;
 @media (max-width: 400px){
     .title{
         margin-top: 5rem;
-        margin-left: 15%;
+        margin-left:2%;
        
     }
     .handcrafted{
         margin-left: 35%;
     }
     .round{
-        margin-right: 60%;
+        margin-right: 90%;
     }
 
 }
@@ -114,14 +114,14 @@ margin-top: 1rem;
    }
    .title{
     margin-top: 5rem;
-    margin-left: 10%;
+    margin-left: 1%;
    
 }
 .handcrafted{
     margin-left: 40%;
 }
 .round{
-    margin-right: 60%;
+    margin-right: 90%;
 }
 
 }
