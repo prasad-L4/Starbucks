@@ -294,11 +294,11 @@
         margin-left: 50%; 
        
         
-        margin-top: 2rem;
+        margin-top: .5rem;
           
         flex-wrap: wrap;
        
-        min-width: 100px;
+        width: 20px;
         overflow: hidden ;
         
         
